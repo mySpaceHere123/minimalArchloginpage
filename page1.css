@@ -1,0 +1,99 @@
+html
+{
+  background-image:url("arch_girl.png") ;
+  
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+  background-size:cover;
+  opacity: 1;
+
+}
+
+body
+{   
+    
+    width: 25%;
+    
+    margin-top: 13%;
+    margin-left: 2%;
+    padding: 80px;
+    border-radius: 25px;
+    text-align: center;        
+    background-color: rgba(240, 245, 244, 0.2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+    
+}
+h1
+{
+  color: rgb(255, 255, 255);
+  border-bottom: thick solid white;
+  
+  
+}
+
+#login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+#login-error-msg
+{
+    width: 23%;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: none;
+    opacity: 0;
+  
+}
+#input_form 
+{
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.form-field::placeholder
+{
+    color: #3a3a3a;
+}
+  .form
+ {
+   font-weight: 900;
+    color: rgb(255, 255, 255);
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid white;
+    border-radius: 10px;
+    
+    padding: 0px 0px 5px 5px;
+  }
+  #form-submit {
+    width: 25%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: #ffffff;
+    cursor:pointer;
+    outline: none;
+  }
+  .form-text{
+    color: white;
+    
+  }
